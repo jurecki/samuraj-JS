@@ -17,13 +17,13 @@
 
         const startCounter = () => {
             let counter = 0;
-
+           
             return () => {
                 div.textContent = `${counter} sekund`;
                 counter++
             }
 
-
+            
         }
 
         const start = startCounter();
